@@ -1,0 +1,7 @@
+{
+    "configuration": "pnum=BLUEPILL_F103C6,upload_method=swdMethod,xserial=generic,usb=none,xusb=FS,opt=osstd,dbg=none,rtlib=nano",
+    "board": "STMicroelectronics:stm32:GenF1",
+    "sketch": "LED_CUBE_CODE\\Kod za LED_CUBE_demo.ino",
+    "output": ":_./build"
+
+}
