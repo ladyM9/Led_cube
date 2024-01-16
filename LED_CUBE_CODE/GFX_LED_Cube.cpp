@@ -79,6 +79,12 @@ void LEDCube::setDepth(int _d)  //podesavanje dubine odnosno z osi na led kocki
 	if ((_d > 7) || (_d < 0)) return; 
 	_depth = _d;
 }
+void LEDCube :: setPlane(int _plane) 
+{
+	if ((_plane > 4) || (_plane < 0)) return;
+	plane = _plane;
+	
+}
 
 
 
