@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 64eb2d32-222b-4351-90b6-2cc90b760e62)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 36.195 27.94) (size 51.308 26.289) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ccca4637-6427-4f45-abce-b48cba1912e2)
+    (property "Sheetname" "Microcontroller" (at 36.195 27.2284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "untitled.kicad_sch" (at 36.195 54.8136 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "LED CUBE PCB"
+        (path "/64eb2d32-222b-4351-90b6-2cc90b760e62" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
