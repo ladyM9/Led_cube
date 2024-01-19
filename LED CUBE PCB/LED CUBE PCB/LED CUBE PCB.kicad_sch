@@ -1,0 +1,51 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 64eb2d32-222b-4351-90b6-2cc90b760e62)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 102.9716 28.3972) (size 58.2676 26.3144) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5690a520-fa1c-482f-a977-8101e9fd3d41)
+    (property "Sheetname" "Logic_level_converer" (at 102.9716 27.6856 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "LED_CUBE.kicad_sch" (at 102.9716 55.2962 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 102.9716 28.3972 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "LED CUBE PCB"
+        (path "/64eb2d32-222b-4351-90b6-2cc90b760e62" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 36.195 27.94) (size 51.308 26.289) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ccca4637-6427-4f45-abce-b48cba1912e2)
+    (property "Sheetname" "Microcontroller" (at 36.195 27.2284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "untitled.kicad_sch" (at 36.195 54.8136 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "LED CUBE PCB"
+        (path "/64eb2d32-222b-4351-90b6-2cc90b760e62" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
