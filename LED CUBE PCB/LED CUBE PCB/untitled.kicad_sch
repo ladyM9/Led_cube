@@ -2416,11 +2416,11 @@
     (property "Datasheet" "" (at 72.771 37.592 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 4ffc7f70-474c-495b-81e3-27e4f95f8162))
-    (pin "" (uuid 4ffc7f70-474c-495b-81e3-27e4f95f8162))
-    (pin "" (uuid 4ffc7f70-474c-495b-81e3-27e4f95f8162))
-    (pin "" (uuid 4ffc7f70-474c-495b-81e3-27e4f95f8162))
-    (pin "" (uuid 4ffc7f70-474c-495b-81e3-27e4f95f8162))
+    (pin "" (uuid 4ffc7f70-474c-495b-81e3-27e4f95f8166))
+    (pin "" (uuid 4ffc7f70-474c-495b-81e3-27e4f95f8166))
+    (pin "" (uuid 4ffc7f70-474c-495b-81e3-27e4f95f8166))
+    (pin "" (uuid 4ffc7f70-474c-495b-81e3-27e4f95f8166))
+    (pin "" (uuid 4ffc7f70-474c-495b-81e3-27e4f95f8166))
     (instances
       (project "LED CUBE PCB"
         (path "/64eb2d32-222b-4351-90b6-2cc90b760e62"

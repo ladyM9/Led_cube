@@ -330,6 +330,10 @@
     [
       "ccca4637-6427-4f45-abce-b48cba1912e2",
       "Microcontroller"
+    ],
+    [
+      "d4d78a1a-9980-4f28-b2ad-daf3a6ea4163",
+      "Logic_Level_Converter"
     ]
   ],
   "text_variables": {}
