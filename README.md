@@ -22,10 +22,12 @@ Programming code upload on STM32F103C8T6 with ST-Link.
 - 3D printing filament
 
 <p align="center">
-  <img width="600" src=https://github.com/ladyM9/Led_cube/blob/main/Images/20240108_150919.JPG?raw=true>
+  <img width="400" src=https://github.com/ladyM9/Led_cube/blob/main/Images/20240108_150919.JPG?raw=true>
 </p>
 
-![alt text](https://github.com/ladyM9/Led_cube/blob/main/Images/Led_cube4JPG.JPG?raw=true)
+<p align="center">
+  <img width="400" src=https://github.com/ladyM9/Led_cube/blob/main/Images/Led_cube4JPG.JPG?raw=true>
+</p>
 
 
 
