@@ -9,6 +9,11 @@ To solve this issue, the LED diodes and STM32F103C8T6 are connected using a logi
 It is necessary to use a computer power supply because when all 512 LEDs are lit, the LED cube requires a 20 A/5 V power source to function correctly.
 Programming code upload on STM32F103C8T6 with ST-Link.
 
+***Contents of repo***
+- Programming code for controlling the LED cube
+- 3D design of the stand for the Led cube
+- PCB for the Led cube(It is currently being created)
+- Images of the Led cube
 
 ***Commponets for project:***
 - STM32F103C8T6
@@ -23,11 +28,17 @@ Programming code upload on STM32F103C8T6 with ST-Link.
 
 <p align="center">
   <img width="400" src=https://github.com/ladyM9/Led_cube/blob/main/Images/20240108_150919.JPG?raw=true>
+ <br>
+    <b>View of the Led cube and the 3d print stand</b>
 </p>
+<br>
 
 <p align="center">
   <img width="400" src=https://github.com/ladyM9/Led_cube/blob/main/Images/Led_cube4JPG.JPG?raw=true>
+ <br>
+    <b>Overview when all leds diodeš working</b>
 </p>
+<br>
 
 
 
