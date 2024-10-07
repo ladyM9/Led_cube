@@ -2,20 +2,20 @@
 This project is based on the STM32F103C8T6 (Blue Pill) for controlling WS2812D (LED diodes). The LED cube is used for ambient lighting.
 Various animations can be displayed on the LED cube, which makes it very impressive and interesting.
 
-***How this project works***
+## ***How this project works***
 
 The STM32F103C8T6 and WS2812D (LED diodes) cannot be directly connected because they operate at different voltage levels. 
 To solve this issue, the LED diodes and STM32F103C8T6 are connected using a logic level converter. A computer power supply is used to power the LED cube.
 It is necessary to use a computer power supply because when all 512 LEDs are lit, the LED cube requires a 20 A/5 V power source to function correctly.
 Programming code upload on STM32F103C8T6 with ST-Link.
 
-***Contents of repo***
+## ***Contents of repo***
 - Programming code for controlling the LED cube
 - 3D design of the stand for the Led cube
 - PCB for the Led cube(It is currently being created)
 - Images of the Led cube
 
-***Commponets for project:***
+## ***Commponets for project:***
 - STM32F103C8T6
 - ST-Link
 - WS2812D(512 piece)
