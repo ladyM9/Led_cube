@@ -2,7 +2,6 @@
 #include <Adafruit_NeoPixel.h>
 //#include <Adafruit_GFX.h>
 LEDCube myCube;
-//void drawRect(uint16_t x0, uint16_t y0, uint16_t w, uint16_t h, uint16_t color);
 uint16_t x0[] = {0, 1, 2, 3, 4, 5, 6};
 uint16_t y[] = {0, 1, 2, 3, 4, 5, 6, 7};
 uint16_t X[] = {0, 3, 5, 7};
@@ -27,26 +26,16 @@ unsigned long change_Timer = 0;
 int pattern = 0;
 unsigned long TIMER_CHANGE_INTERVAL = 5000;
 void setup() {
-  // put your setup code here, to run once:
-  //  uint16_t x0 = 1;
-  //  uint16_t x1 = 5;
-  //  uint16_t y0 = 0;
-  //  uint16_t y1 = 5;
-  //  uint16_t color_1 = 32158;
-  //  uint16_t w = 5 ;
-  //  uint16_t h = 5 ;
+
 
   myCube.begin();
   strip.setBrightness(BRIGHTNESS);
-  // myCube.clear();
-  // myCube.drawRect( 0, 2, 4, 4, 12555);
-  //myCube.drawChar(0, 0, 89, 65535, 0, 1);
-  // myCube.display();
+
 }
 int i = 0;
 void loop() {
-  upadate_Animacije(pattern);  //pozivanje funkcije pattern
-  //unsigned long currentMillis = millis()
+  upadate_Animacije(pattern);  //pozivanje funkcije unutar koje su animacije za prikaz na led kocki
+  
   if ((unsigned long)(millis() - change_Timer) >= TIMER_CHANGE_INTERVAL)  ///ako je  razlika vremena otkad je upaljen mikroupravljač i vremena promjene vremena veća od promjene intervala učini sljedeće
   {
     change_Timer = millis();  //varijabli za promjenu timera priduži millis odnosno milisekunde odnosno kreni brojati
@@ -61,61 +50,6 @@ void loop() {
 
   return;
 }
-
-//  // put your main code here, to run repeatedly:
-// // if (currentMillis + previousMillis  < millis()  || millis() < previousMillis) {
-////    previousMillis = currentMillis;
-//    // save the last time you blinked the LED
-//    for (int i = 0; i < 6 ; i++) {
-//      myCube.setDepth(i);
-//      myCube.drawRect( x0[i], 2, 4, 4, color[i]);
-//      //myCube.drawChar(0, 0, 89, 65535, 0, 1);
-//      myCube.display();
-//      delay(250);
-//    }
-//  }
-//  if (currentMillis > 2000 && currentMillis < 5000 ) {
-//  myCube.clear();
-//    myCube.setDepth(2);
-//    myCube.fillCircle(2, 3, 2, 25874);
-//    delay(250);
-//    myCube.setDepth(4);
-//    myCube.fillCircle(5, 3, 2, 45213);
-//    myCube.display();
-//  }
-//  if ((currentMillis > 6000) && (currentMillis < 10000)) {
-//    myCube.clear();
-//    myCube.setCursor(1, 0);
-//    myCube.setDepth(i % 8);
-//    myCube.print((i++) % 9, DEC);
-//    myCube.display();
-//    delay(250);
-//  }
-//  if ((currentMillis > 10000) && (currentMillis < 12000)) {
-//    myCube.clear();
-//    myCube.setDepth(2);
-//    myCube.drawLine(1, 1, 6, 5, 55879);
-//    myCube.setDepth(5);
-//    myCube.drawLine(1, 7, 1, 1, 22145);
-//    myCube.display();
-//  }
-//  if ((currentMillis > 12000) && (currentMillis < 15000)) {
-//    myCube.clear();
-//    for (int i = 0; i < 8 ; i++) {
-//      myCube.setDepth(i);
-//      myCube.drawPixel(x0[i], y[i], color[i]);
-//      myCube.display();
-//      delay(250);
-//    }
-//    for (int i = 0; i > 8 ; i++) {
-//      myCube.setDepth(i - 1);
-//      myCube.drawPixel(x0[i], y[i], color[i]);
-//      myCube.display();
-//
-//    }
-
-
-
 
 void  upadate_Animacije(int _p)   ///funkcija pomoću koje odabirem animaciju koju želim da mi se prikazuje na led kocki
 {

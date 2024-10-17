@@ -60,18 +60,6 @@ void LEDCube::drawPixel(int16_t x, int16_t y, uint16_t color)  // funkcija za uk
 	int16_t _x0 = (_depth % 2 == 0 ? (7 - x) : x);
 	pixels[y]->setPixelColor((_depth * 8) + _x0, color);
 	
-	// Debug stuff, ignore it for now.
-	//Serial.print("X:");
-	//Serial.print(x, DEC);
-	//Serial.print(" Y:");
-	//Serial.print(y, DEC);
-	//Serial.print(" Z:");
-	//Serial.print(_depth, DEC);
-	//Serial.print(" Color:");
-	//Serial.print(color, DEC);
-	//Serial.print(" LED:");
-	//Serial.print((_depth * 4) + _x0, DEC);
-	//Serial.println();
 }
 
 void LEDCube::setDepth(int _d)  //podesavanje dubine odnosno z osi na led kocki 
@@ -79,7 +67,7 @@ void LEDCube::setDepth(int _d)  //podesavanje dubine odnosno z osi na led kocki
 	if ((_d > 7) || (_d < 0)) return; 
 	_depth = _d;
 }
-void LEDCube :: setPlane(int _plane) 
+void LEDCube::setPlane(int _plane) 
 {
 	if ((_plane > 4) || (_plane < 0)) return;
 	plane = _plane;
