@@ -6597,7 +6597,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SMD_PUSH_BUTTON:SMD_BUTTON"
 			(at 132.08 45.72 0)
 			(effects
 				(font
