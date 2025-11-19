@@ -5,6 +5,145 @@
 	(uuid "3854a52f-7c6e-4062-8e67-d8c741840074")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "POWER_SUPPLY:U"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -641,6 +780,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 78.74) (xy 182.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e00483-d3c9-4b7b-8be8-0b939310159b")
+	)
+	(wire
+		(pts
 			(xy 120.65 59.69) (xy 110.49 59.69)
 		)
 		(stroke
@@ -688,6 +837,16 @@
 			(type default)
 		)
 		(uuid "4e66acba-2cb1-4d02-a904-bddf8236ba0e")
+	)
+	(wire
+		(pts
+			(xy 179.07 66.04) (xy 182.88 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5228b68c-c8fb-4241-b3c3-2054e9c033bc")
 	)
 	(wire
 		(pts
@@ -921,6 +1080,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 66.04) (xy 194.31 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa241068-b1bc-463a-a283-1d94f7c449ce")
+	)
+	(wire
+		(pts
 			(xy 154.94 44.45) (xy 154.94 43.18)
 		)
 		(stroke
@@ -938,6 +1107,16 @@
 			(type default)
 		)
 		(uuid "bee6e4da-86a5-4d58-b03b-f43cd2eeecd7")
+	)
+	(wire
+		(pts
+			(xy 190.5 78.74) (xy 194.31 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c10f9fb7-727d-4bff-ae7f-5ee42edeb37f")
 	)
 	(wire
 		(pts
@@ -1167,6 +1346,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 194.31 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34b81ab4-e884-4fbd-b84a-6a4ecf6f77ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.1657 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PB8"
 		(shape input)
 		(at 106.68 43.18 180)
@@ -1321,6 +1522,28 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 179.07 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6bc0f021-61a4-4231-8d43-50c140fb9d22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.7867 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PB4"
 		(shape input)
 		(at 106.68 60.96 180)
@@ -1356,6 +1579,50 @@
 		(uuid "7f9f99e4-da9d-44a0-8050-d5991a2cbc9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 161.4933 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 179.07 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ba1a92a-806c-4bc0-9da5-367e26b943f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.7867 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 194.31 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e14ec8e-24a1-463d-9e26-664ca50ffb87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.1657 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1542,6 +1809,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 186.69 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "276b140a-6e77-45eb-9f97-0d2a5dc638c7")
+		(property "Reference" "C2"
+			(at 186.69 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470uF"
+			(at 186.69 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Borna KiCAD Library:C0603"
+			(at 182.88 79.7052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45413a05-6b6b-4e60-b578-5459c4d7303c")
+		)
+		(pin "2"
+			(uuid "6f9abd21-d35a-4937-9fd6-29dcc05db603")
+		)
+		(instances
+			(project "LED CUBE PCB"
+				(path "/64eb2d32-222b-4351-90b6-2cc90b760e62/d4d78a1a-9980-4f28-b2ad-daf3a6ea4163"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TXB0108:TXB0108")
 		(at 129.54 50.8 0)
 		(unit 1)
@@ -1657,6 +1991,73 @@
 			(project "LED CUBE PCB"
 				(path "/64eb2d32-222b-4351-90b6-2cc90b760e62/d4d78a1a-9980-4f28-b2ad-daf3a6ea4163"
 					(reference "TXB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 186.69 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b303dee9-a211-463f-84da-7e70f30e4387")
+		(property "Reference" "C1"
+			(at 186.69 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 186.69 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Borna KiCAD Library:C0603"
+			(at 182.88 67.0052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e7d584e-735d-403b-8623-35941cefd7b5")
+		)
+		(pin "2"
+			(uuid "395d9270-5be3-4328-bbdd-76bdf0aaac34")
+		)
+		(instances
+			(project "LED CUBE PCB"
+				(path "/64eb2d32-222b-4351-90b6-2cc90b760e62/d4d78a1a-9980-4f28-b2ad-daf3a6ea4163"
+					(reference "C1")
 					(unit 1)
 				)
 			)
