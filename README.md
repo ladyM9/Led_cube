@@ -36,7 +36,7 @@ Programming code upload on STM32F103C8T6 with ST-Link.
 <p align="center">
   <img width="400" src=https://github.com/ladyM9/Led_cube/blob/main/Images/Led_cube4JPG.JPG?raw=true>
  <br>
-    <b>Overview when all leds diodeš working</b>
+    <b>Overview when all leds diodes working</b>
 </p>
 <br>
 
