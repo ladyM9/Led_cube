@@ -6,8 +6,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 33.528 0)
+		(property "Reference" "MC"
+			(at 0 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "STM32F103"
-			(at 0.508 -33.782 0)
+			(at 0 32.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
