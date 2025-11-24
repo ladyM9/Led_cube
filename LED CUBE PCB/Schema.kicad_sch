@@ -5,6 +5,280 @@
 	(uuid "3854a52f-7c6e-4062-8e67-d8c741840074")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Borna KiCAD Library:BAT20JFILM"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0.762 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAT20JFILM"
+				(at 0.762 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Borna KiCAD Library:SOD323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAT20JFILM_1_1"
+				(arc
+					(start 0.762 1.27)
+					(mid 0.8364 1.4496)
+					(end 1.016 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.524)
+					(mid 1.1956 1.4496)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 1.27) (xy 0 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 1.524 -1.524)
+					(mid 1.3444 -1.4496)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 -1.27)
+					(mid 1.7036 -1.4496)
+					(end 1.524 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Borna KiCAD Library:SMD1206-100/06N"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMD1206-100/06N"
+				(at 0 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Borna KiCAD Library:1206"
+				(at 0 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMD1206-100/06N_0_1"
+				(rectangle
+					(start -1.905 0.635)
+					(end 1.905 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.524) (xy 1.27 1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMD1206-100/06N_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.905)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.905)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -126,142 +400,6 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Fuse"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -1063,6 +1201,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 30.48) (xy 160.02 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083ac07c-212a-4cd5-9c91-0bce4994f3e4")
+	)
+	(wire
+		(pts
 			(xy 80.01 40.64) (xy 80.01 41.91)
 		)
 		(stroke
@@ -1143,13 +1291,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 36.83) (xy 139.7 36.83)
+			(xy 160.02 22.86) (xy 157.48 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27507220-3294-43fe-a53a-30f2a29dc488")
+		(uuid "2c4a8d88-a0f5-4f3c-8274-3db847e22ea3")
 	)
 	(wire
 		(pts
@@ -1253,6 +1401,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 30.48) (xy 165.1 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b8c095-02cb-41d4-8867-783d52cf9e06")
+	)
+	(wire
+		(pts
 			(xy 30.48 52.07) (xy 35.56 52.07)
 		)
 		(stroke
@@ -1333,6 +1491,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 33.02) (xy 165.1 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71adb7c8-77bc-4890-87ef-bffea95b63de")
+	)
+	(wire
+		(pts
 			(xy 36.83 62.23) (xy 36.83 63.5)
 		)
 		(stroke
@@ -1340,6 +1508,16 @@
 			(type default)
 		)
 		(uuid "7640a7d4-0808-4945-a5d1-32e51df258e3")
+	)
+	(wire
+		(pts
+			(xy 123.19 33.02) (xy 130.81 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "778fb4b9-b521-418e-849b-4a0b7265e460")
 	)
 	(wire
 		(pts
@@ -1493,6 +1671,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 33.02) (xy 144.78 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ee8066-1836-4db9-a669-40afc9bc5c37")
+	)
+	(wire
+		(pts
 			(xy 44.45 50.8) (xy 35.56 50.8)
 		)
 		(stroke
@@ -1570,16 +1758,6 @@
 			(type default)
 		)
 		(uuid "cb14ae59-8242-4d2e-a2b1-2eba4d27dec1")
-	)
-	(wire
-		(pts
-			(xy 137.16 34.29) (xy 139.7 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d28fb374-5878-4460-9a0f-354b6a892b63")
 	)
 	(wire
 		(pts
@@ -1903,7 +2081,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 137.16 36.83 180)
+		(at 123.19 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1913,7 +2091,7 @@
 		)
 		(uuid "54478f47-d7a1-45c0-a7bf-223ab3b8163c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.8767 36.83 0)
+			(at 117.9067 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +2323,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 137.16 34.29 180)
+		(at 157.48 22.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2155,7 +2333,7 @@
 		)
 		(uuid "ac6dcee3-cdfb-4f26-9b6d-774bb63c5679")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.3043 34.29 0)
+			(at 150.6243 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,6 +2646,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Borna KiCAD Library:BAT20JFILM")
+		(at 133.35 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e1258b5-10e4-4982-889c-c44d62e81b27")
+		(property "Reference" "D1"
+			(at 134.239 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT20JFILM"
+			(at 134.239 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Borna KiCAD Library:SOD323"
+			(at 133.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "c29eb664-4710-4618-80ff-1a4cb188eaa2")
+		)
+		(pin "K"
+			(uuid "91b2343b-3bb8-42d0-a38a-6115c3eddc72")
+		)
+		(instances
+			(project ""
+				(path "/64eb2d32-222b-4351-90b6-2cc90b760e62/d4d78a1a-9980-4f28-b2ad-daf3a6ea4163"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 140.97 66.04 270)
 		(unit 1)
@@ -2529,6 +2774,74 @@
 			(project "LED CUBE PCB"
 				(path "/64eb2d32-222b-4351-90b6-2cc90b760e62/d4d78a1a-9980-4f28-b2ad-daf3a6ea4163"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Borna KiCAD Library:SMD1206-100/06N")
+		(at 148.59 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a352610-ae07-4a07-afb8-9139641f6fba")
+		(property "Reference" "F1"
+			(at 148.5265 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMD1206-100/06N"
+			(at 148.5265 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Borna KiCAD Library:1206"
+			(at 148.59 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02f9793f-fa7c-425f-8bc4-957589ec71d7")
+		)
+		(pin "2"
+			(uuid "3cc99e40-5071-4b2d-af97-ced9861615cd")
+		)
+		(instances
+			(project ""
+				(path "/64eb2d32-222b-4351-90b6-2cc90b760e62/d4d78a1a-9980-4f28-b2ad-daf3a6ea4163"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -2668,76 +2981,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 41.91 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5af76fd-dfde-4e31-a887-88dc1b9f7c75")
-		(property "Reference" "F1"
-			(at 41.91 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 41.91 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 103.378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 41.91 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fa66c784-c2ae-4c33-b633-73b2e06e71aa")
-		)
-		(pin "1"
-			(uuid "b4a2142c-ab16-49de-b8ee-2756015ac245")
-		)
-		(instances
-			(project ""
-				(path "/64eb2d32-222b-4351-90b6-2cc90b760e62/d4d78a1a-9980-4f28-b2ad-daf3a6ea4163"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "POWER_SUPPLY:U")
-		(at 144.78 35.56 0)
+		(at 170.18 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2746,7 +2991,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8190c67-5974-4a70-8694-9953428287c1")
 		(property "Reference" "CONN1"
-			(at 148.59 35.5599 0)
+			(at 173.99 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2755,7 +3000,7 @@
 			)
 		)
 		(property "Value" "POWER_SUPPLY"
-			(at 144.78 41.402 0)
+			(at 170.18 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2764,7 +3009,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 144.78 39.37 0)
+			(at 170.18 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2773,7 +3018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 35.56 0)
+			(at 170.18 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2782,7 +3027,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 35.56 0)
+			(at 170.18 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
