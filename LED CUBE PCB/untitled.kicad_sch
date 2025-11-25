@@ -5,168 +5,6 @@
 	(uuid "0880c57b-df22-41c8-a5da-c8318381bf10")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Borna KiCAD Library:BAT20JFILM"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0.762 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BAT20JFILM"
-				(at 0.762 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Borna KiCAD Library:SOD323"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BAT20JFILM_1_1"
-				(arc
-					(start 0.762 1.27)
-					(mid 0.8364 1.4496)
-					(end 1.016 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 1.524)
-					(mid 1.1956 1.4496)
-					(end 1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0 1.27) (xy 0 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 1.524 -1.524)
-					(mid 1.3444 -1.4496)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 -1.27)
-					(mid 1.7036 -1.4496)
-					(end 1.524 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Borna KiCAD Library:BZCN_TSA007A1518B03"
 			(pin_numbers
 				(hide yes)
@@ -3948,6 +3786,12 @@
 		(uuid "bd5beecb-1e9b-400b-abbe-70ca2dacfe3c")
 	)
 	(junction
+		(at 142.24 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08917841-4235-4bce-9afb-d3aa5429f948")
+	)
+	(junction
 		(at 259.08 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3990,12 +3834,6 @@
 		(uuid "33ca8993-f1ea-490d-ab35-169bea82c84e")
 	)
 	(junction
-		(at 133.35 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "361d0d1f-d1b9-4815-8451-469adfa7b243")
-	)
-	(junction
 		(at 212.09 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4024,6 +3862,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71f41166-26ef-47bb-b3f2-15c8a23e9606")
+	)
+	(junction
+		(at 153.67 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a9abebc-66e0-499e-9c25-fd19004cf41d")
 	)
 	(junction
 		(at 201.93 162.56)
@@ -4247,6 +4091,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 138.43) (xy 153.67 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "151001ac-2756-493f-b38f-9c2fb0d837f5")
+	)
+	(wire
+		(pts
 			(xy 179.07 162.56) (xy 185.42 162.56)
 		)
 		(stroke
@@ -4364,6 +4218,16 @@
 			(type default)
 		)
 		(uuid "21d19914-fee7-4844-9e8a-17766b25b28d")
+	)
+	(wire
+		(pts
+			(xy 153.67 138.43) (xy 157.48 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237c7ae1-f2c7-48ea-845f-2f6b724c8583")
 	)
 	(wire
 		(pts
@@ -4727,6 +4591,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 138.43) (xy 142.24 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e8fecf-e467-4263-9752-c523c0f9fbb0")
+	)
+	(wire
+		(pts
 			(xy 185.42 148.59) (xy 179.07 148.59)
 		)
 		(stroke
@@ -4784,16 +4658,6 @@
 			(type default)
 		)
 		(uuid "3e3ae9b0-05b2-4275-a0a6-744c77db3f3f")
-	)
-	(wire
-		(pts
-			(xy 140.97 135.89) (xy 151.13 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3edd7967-7225-41a8-9fea-e2ad02714d77")
 	)
 	(wire
 		(pts
@@ -4887,16 +4751,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 135.89) (xy 134.62 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48926443-78e4-4556-a35e-b0c543991b72")
-	)
-	(wire
-		(pts
 			(xy 243.84 77.47) (xy 254 77.47)
 		)
 		(stroke
@@ -4947,16 +4801,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 135.89) (xy 133.35 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d8f366d-9f9a-4920-bb7d-438122401308")
-	)
-	(wire
-		(pts
 			(xy 55.88 74.93) (xy 55.88 72.39)
 		)
 		(stroke
@@ -4984,16 +4828,6 @@
 			(type default)
 		)
 		(uuid "50aa613d-5b1d-4046-a568-fbed11221796")
-	)
-	(wire
-		(pts
-			(xy 133.35 146.05) (xy 133.35 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "511a77f9-f542-449c-9950-21bfd754509b")
 	)
 	(wire
 		(pts
@@ -5117,16 +4951,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 149.86) (xy 118.11 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c873a50-e363-4fd8-bcbd-37cc16bef6a6")
-	)
-	(wire
-		(pts
 			(xy 142.24 106.68) (xy 142.24 107.95)
 		)
 		(stroke
@@ -5187,16 +5011,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 135.89) (xy 133.35 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6298b1a2-932d-4770-a60c-6ce4c4689d65")
-	)
-	(wire
-		(pts
 			(xy 39.37 107.95) (xy 39.37 110.49)
 		)
 		(stroke
@@ -5207,6 +5021,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 148.59) (xy 153.67 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64558b71-e71b-4ec2-a1bd-29adf7d6bc60")
+	)
+	(wire
+		(pts
 			(xy 266.7 113.03) (xy 266.7 115.57)
 		)
 		(stroke
@@ -5214,6 +5038,16 @@
 			(type default)
 		)
 		(uuid "65d89824-4246-4850-b7d6-62ef0d6b2cb3")
+	)
+	(wire
+		(pts
+			(xy 153.67 138.43) (xy 153.67 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666179e4-ada8-477f-ac50-f84a9847b5a9")
 	)
 	(wire
 		(pts
@@ -5557,16 +5391,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 149.86) (xy 129.54 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fe09c23-e87a-4de3-a51c-4dfb845a4033")
-	)
-	(wire
-		(pts
 			(xy 243.84 49.53) (xy 260.35 49.53)
 		)
 		(stroke
@@ -5827,6 +5651,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 138.43) (xy 130.81 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93078760-aa29-4bb2-8e67-19c7d53021c9")
+	)
+	(wire
+		(pts
 			(xy 266.7 105.41) (xy 266.7 102.87)
 		)
 		(stroke
@@ -5844,6 +5678,16 @@
 			(type default)
 		)
 		(uuid "952e2eab-ee9d-4179-8574-7302eb567746")
+	)
+	(wire
+		(pts
+			(xy 142.24 148.59) (xy 142.24 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953fec22-2feb-42a0-8b59-3da260c34e95")
 	)
 	(wire
 		(pts
@@ -6687,6 +6531,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 138.43) (xy 142.24 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de407899-cfeb-4b42-b51e-d9d2a12e0617")
+	)
+	(wire
+		(pts
 			(xy 204.47 25.4) (xy 207.01 25.4)
 		)
 		(stroke
@@ -6944,16 +6798,6 @@
 			(type default)
 		)
 		(uuid "f68af18d-2f2e-4c80-a7e0-62831adc8066")
-	)
-	(wire
-		(pts
-			(xy 121.92 149.86) (xy 118.11 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6f40c07-6952-4695-a35b-1edc30fa1c8c")
 	)
 	(wire
 		(pts
@@ -7267,7 +7111,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 151.13 135.89 0)
+		(at 157.48 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7277,7 +7121,7 @@
 		)
 		(uuid "1d101c6d-fa46-4c58-abe7-6c714eb76128")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.6228 135.89 0)
+			(at 163.9728 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7333,7 +7177,7 @@
 	)
 	(global_label "VBAT"
 		(shape input)
-		(at 125.73 135.89 180)
+		(at 125.73 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7343,7 +7187,7 @@
 		)
 		(uuid "21d4e8d4-b5ff-45bf-99e6-7a6f92ebe437")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.33 135.89 0)
+			(at 118.33 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9654,74 +9498,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 125.73 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2df99dfa-d97a-4323-a9b6-f24ff039f28e")
-		(property "Reference" "C8"
-			(at 125.73 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1F"
-			(at 125.73 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Borna KiCAD Library:C0603"
-			(at 129.54 148.8948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 125.73 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6e9616f9-4e34-4655-a9f2-0a8b8b1ef7d1")
-		)
-		(pin "1"
-			(uuid "e24be161-787d-40ca-ad78-d154ed85043b")
-		)
-		(instances
-			(project ""
-				(path "/64eb2d32-222b-4351-90b6-2cc90b760e62/ccca4637-6427-4f45-abce-b48cba1912e2"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 144.78 54.61 0)
 		(unit 1)
@@ -10052,6 +9828,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 153.67 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44775ca2-70d8-4925-8609-178eb327751c")
+		(property "Reference" "#PWR014"
+			(at 153.67 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b109ce08-cbc6-4fd2-909a-cded6ad3695e")
+		)
+		(instances
+			(project "LED CUBE PCB"
+				(path "/64eb2d32-222b-4351-90b6-2cc90b760e62/ccca4637-6427-4f45-abce-b48cba1912e2"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 134.62 85.09 90)
 		(unit 1)
@@ -10188,42 +10029,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Borna KiCAD Library:BAT20JFILM")
-		(at 138.43 135.89 180)
+		(lib_id "Device:C")
+		(at 153.67 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "532d7975-ab74-4cd4-8323-407263870843")
-		(property "Reference" "D2"
-			(at 137.541 129.54 0)
+		(uuid "557133fb-9716-497b-9585-413f59c26289")
+		(property "Reference" "C9"
+			(at 157.48 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "BAT20JFILM"
-			(at 137.541 132.08 0)
+		(property "Value" "10u"
+			(at 157.48 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Borna KiCAD Library:SOD323"
-			(at 138.43 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 135.89 0)
+		(property "Footprint" "Borna KiCAD Library:C0603"
+			(at 152.7048 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10231,8 +10065,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 138.43 135.89 0)
+		(property "Datasheet" "~"
+			(at 153.67 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10240,16 +10074,25 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
-			(uuid "f9908c23-b8af-43d9-adad-ce1da0eaab48")
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "K"
-			(uuid "f234e88e-258c-4760-b72b-fbb05334f230")
+		(pin "2"
+			(uuid "c4f6f1fe-6262-49eb-ba0c-360fa4b1987d")
+		)
+		(pin "1"
+			(uuid "5f70bf25-9d0b-4171-b54b-5735bac896ff")
 		)
 		(instances
-			(project ""
+			(project "LED CUBE PCB"
 				(path "/64eb2d32-222b-4351-90b6-2cc90b760e62/ccca4637-6427-4f45-abce-b48cba1912e2"
-					(reference "D2")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10924,7 +10767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Borna KiCAD Library:C0603"
+		(property "Footprint" "BornaKiCad:C0603"
 			(at 28.9052 72.39 0)
 			(effects
 				(font
@@ -12104,7 +11947,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 153.67 0)
+		(at 142.24 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12113,7 +11956,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bc8da63-1e3a-4c7e-80c3-0efaafe4f62d")
 		(property "Reference" "#PWR013"
-			(at 118.11 160.02 0)
+			(at 142.24 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12122,7 +11965,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 158.115 0)
+			(at 142.24 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12130,7 +11973,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 153.67 0)
+			(at 142.24 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12139,7 +11982,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 153.67 0)
+			(at 142.24 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12148,7 +11991,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 153.67 0)
+			(at 142.24 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12873,6 +12716,74 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 142.24 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd826dda-af50-49be-8257-4e75d589e104")
+		(property "Reference" "C10"
+			(at 142.494 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 142.748 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Borna KiCAD Library:C0603"
+			(at 143.2052 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18b7e003-1860-4982-9100-c72613a815fb")
+		)
+		(pin "2"
+			(uuid "9e53fe56-15db-4b67-9809-89f6083bbf94")
+		)
+		(instances
+			(project "LED CUBE PCB"
+				(path "/64eb2d32-222b-4351-90b6-2cc90b760e62/ccca4637-6427-4f45-abce-b48cba1912e2"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 189.23 162.56 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13562,7 +13473,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BornaKiCad:TQFP48"
 			(at 229.87 55.88 0)
 			(effects
 				(font
@@ -13744,7 +13655,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 142.24 0)
+		(at 134.62 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13753,25 +13664,23 @@
 		(fields_autoplaced yes)
 		(uuid "f5e1cb3c-bc29-413e-b936-ff0e7797806b")
 		(property "Reference" "R20"
-			(at 135.89 140.9699 0)
+			(at 134.62 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "22R"
-			(at 135.89 143.5099 0)
+		(property "Value" "100R"
+			(at 134.62 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Borna KiCAD Library:R0603"
-			(at 131.572 142.24 90)
+			(at 134.62 140.208 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13780,7 +13689,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 142.24 0)
+			(at 134.62 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13789,7 +13698,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 142.24 0)
+			(at 134.62 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
