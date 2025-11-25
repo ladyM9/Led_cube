@@ -9117,7 +9117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BornaKiCad:R0603"
+		(property "Footprint" "Borna KiCAD Library:R0603"
 			(at 134.62 102.108 90)
 			(effects
 				(font
@@ -9318,7 +9318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BornaKiCad:R0603"
+		(property "Footprint" "Borna KiCAD Library:R0603"
 			(at 134.62 90.678 90)
 			(effects
 				(font
@@ -9385,7 +9385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BornaKiCad:R0603"
+		(property "Footprint" "Borna KiCAD Library:R0603"
 			(at 134.62 98.298 90)
 			(effects
 				(font
@@ -9785,7 +9785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BornaKiCad:R0603"
+		(property "Footprint" "Borna KiCAD Library:R0603"
 			(at 134.62 94.488 90)
 			(effects
 				(font
@@ -9805,6 +9805,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 134.62 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9917,7 +9926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BornaKiCad:R0603"
+		(property "Footprint" "Borna KiCAD Library:R0603"
 			(at 134.62 86.868 90)
 			(effects
 				(font
@@ -10056,7 +10065,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Borna KiCAD Library:C0603"
+		(property "Footprint" "Borna KiCAD Library:C1206"
 			(at 152.7048 140.97 0)
 			(effects
 				(font
@@ -10767,7 +10776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BornaKiCad:C0603"
+		(property "Footprint" "Borna KiCAD Library:C0603"
 			(at 28.9052 72.39 0)
 			(effects
 				(font
@@ -11018,7 +11027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BornaKiCad:R0603"
+		(property "Footprint" "Borna KiCAD Library:R0603"
 			(at 99.822 66.04 90)
 			(effects
 				(font
@@ -11423,7 +11432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BornaKiCad:C0603"
+		(property "Footprint" "Borna KiCAD Library:C0603"
 			(at 18.7452 72.39 0)
 			(effects
 				(font
@@ -12035,7 +12044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BornaKiCad:R0603"
+		(property "Footprint" "Borna KiCAD Library:R0603"
 			(at 144.78 39.878 90)
 			(effects
 				(font
@@ -12938,7 +12947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BornaKiCad:R0603"
+		(property "Footprint" "Borna KiCAD Library:R0603"
 			(at 134.62 105.918 90)
 			(effects
 				(font
@@ -13072,7 +13081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BornaKiCad:R0603"
+		(property "Footprint" "Borna KiCAD Library:R0603"
 			(at 134.62 113.538 90)
 			(effects
 				(font
@@ -13341,7 +13350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BornaKiCad:R0603"
+		(property "Footprint" "Borna KiCAD Library:R0603"
 			(at 134.62 109.728 90)
 			(effects
 				(font
@@ -13473,7 +13482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BornaKiCad:TQFP48"
+		(property "Footprint" "Borna KiCAD Library:TQFP48"
 			(at 229.87 55.88 0)
 			(effects
 				(font

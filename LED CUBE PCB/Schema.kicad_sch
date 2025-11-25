@@ -1023,7 +1023,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1054,7 +1054,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2603,7 +2603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BornaKiCad:R0603"
+		(property "Footprint" "Borna KiCAD Library:R0603"
 			(at 35.052 67.31 90)
 			(effects
 				(font
@@ -3035,10 +3035,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "574d5417-f019-4069-9c9c-edf5008435b0")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "8378889e-e422-474b-aabf-c2559f199fbc")
 		)
 		(instances
