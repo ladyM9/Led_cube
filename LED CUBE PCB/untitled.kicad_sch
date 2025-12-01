@@ -2484,6 +2484,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Marina_Library:NX3215SA-32.768K-STD-MUA-8"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Marina_Library:SMD3215-2P"
+				(at -0.254 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NX3215SA-32.768K-STD-MUA-8_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NX3215SA-32.768K-STD-MUA-8_1_1"
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "STM32F103c:STM32F103"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3792,12 +3916,6 @@
 		(uuid "08917841-4235-4bce-9afb-d3aa5429f948")
 	)
 	(junction
-		(at 259.08 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1065d43a-6db7-4d75-97db-45b2aba35aa2")
-	)
-	(junction
 		(at 33.02 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3828,16 +3946,16 @@
 		(uuid "3097dad6-ba43-43a6-9801-7a9fe98f0c0d")
 	)
 	(junction
-		(at 259.08 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33ca8993-f1ea-490d-ab35-169bea82c84e")
-	)
-	(junction
 		(at 212.09 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4412453d-7f1e-4394-a8e3-c4980bc90f99")
+	)
+	(junction
+		(at 259.08 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47d479f4-d8f4-4447-9bac-bc5f175c1163")
 	)
 	(junction
 		(at 33.02 120.65)
@@ -3856,6 +3974,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54fbc2d1-7dc0-48b9-8665-b2a63a7bd37b")
+	)
+	(junction
+		(at 259.08 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6499b560-87f8-4d64-9be7-57ff92df93ac")
 	)
 	(junction
 		(at 212.09 148.59)
@@ -4281,16 +4405,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 161.29) (xy 269.24 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2719e489-7a7d-45dd-bb7f-4563d3c0eb60")
-	)
-	(wire
-		(pts
 			(xy 39.37 120.65) (xy 59.69 120.65)
 		)
 		(stroke
@@ -4588,6 +4702,16 @@
 			(type default)
 		)
 		(uuid "38b93907-57df-473b-a2d0-67b300f1c2c2")
+	)
+	(wire
+		(pts
+			(xy 259.08 161.29) (xy 269.24 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3912c659-0013-4853-b4f3-6c5c723cc6bc")
 	)
 	(wire
 		(pts
@@ -4938,16 +5062,6 @@
 			(type default)
 		)
 		(uuid "5b9f4b87-1128-4635-9c7c-6e0537457d05")
-	)
-	(wire
-		(pts
-			(xy 259.08 151.13) (xy 259.08 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c63e6ee-a0bc-4ecb-aaf3-520a481e70c3")
 	)
 	(wire
 		(pts
@@ -5501,16 +5615,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 158.75) (xy 259.08 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84a8f450-c1ba-43e4-a3aa-5b8627066d62")
-	)
-	(wire
-		(pts
 			(xy 29.21 118.11) (xy 33.02 118.11)
 		)
 		(stroke
@@ -5611,6 +5715,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 160.02) (xy 259.08 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899f6f70-03f2-4a28-a237-3167cafacce0")
+	)
+	(wire
+		(pts
 			(xy 215.9 39.37) (xy 208.28 39.37)
 		)
 		(stroke
@@ -5638,6 +5752,16 @@
 			(type default)
 		)
 		(uuid "8ee40449-b46a-4bfc-b23a-4d6967acf5ff")
+	)
+	(wire
+		(pts
+			(xy 259.08 148.59) (xy 259.08 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925c1149-3705-4a2d-9039-6e844164c9dd")
 	)
 	(wire
 		(pts
@@ -6021,6 +6145,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 148.59) (xy 269.24 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5545c6-1f83-469a-99d9-2ba651111d7d")
+	)
+	(wire
+		(pts
 			(xy 215.9 52.07) (xy 201.93 52.07)
 		)
 		(stroke
@@ -6178,16 +6312,6 @@
 			(type default)
 		)
 		(uuid "bdef9cf8-e9cf-48ca-80cf-69b626614354")
-	)
-	(wire
-		(pts
-			(xy 259.08 148.59) (xy 269.24 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be2c192e-0ef0-4f06-a96d-5e91129832e8")
 	)
 	(wire
 		(pts
@@ -10885,6 +11009,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Marina_Library:NX3215SA-32.768K-STD-MUA-8")
+		(at 259.08 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d83b187-6d14-43e9-9c50-c7f78788a88c")
+		(property "Reference" "Y1"
+			(at 264.16 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 264.16 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Marina_Library:SMD3215-2P"
+			(at 263.906 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "610fc6e0-ed1d-4f00-bb6f-4578c26e8730")
+		)
+		(pin "1"
+			(uuid "e3e64626-fa9f-4db8-979d-3de219e9ea38")
+		)
+		(instances
+			(project ""
+				(path "/64eb2d32-222b-4351-90b6-2cc90b760e62/ccca4637-6427-4f45-abce-b48cba1912e2"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Borna KiCAD Library:TYPE-C_16PIN_2MD(073)")
 		(at 66.04 125.73 0)
 		(unit 1)
@@ -12787,75 +12981,6 @@
 			(project ""
 				(path "/64eb2d32-222b-4351-90b6-2cc90b760e62/ccca4637-6427-4f45-abce-b48cba1912e2"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal")
-		(at 259.08 154.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b669b95d-a3df-4f03-99c4-a71c687c5899")
-		(property "Reference" "Y4"
-			(at 263.525 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "32.786KHz"
-			(at 263.525 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_HC49-4H_Vertical"
-			(at 259.08 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "224f6935-6b37-4126-9f83-41b73871e94c")
-		)
-		(pin "2"
-			(uuid "fa9015a5-8071-4e40-a49c-4cb6f581a913")
-		)
-		(instances
-			(project "LED CUBE PCB"
-				(path "/64eb2d32-222b-4351-90b6-2cc90b760e62/ccca4637-6427-4f45-abce-b48cba1912e2"
-					(reference "Y4")
 					(unit 1)
 				)
 			)
