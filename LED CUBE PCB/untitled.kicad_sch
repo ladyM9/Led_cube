@@ -10257,7 +10257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Borna KiCAD Library:C0603"
 			(at 251.46 147.6248 0)
 			(effects
 				(font
@@ -10764,7 +10764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Borna KiCAD Library:R1206"
 			(at 210.312 154.94 90)
 			(effects
 				(font
@@ -12438,7 +12438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Borna KiCAD Library:C0603"
 			(at 185.42 149.5552 0)
 			(effects
 				(font
@@ -12855,7 +12855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Borna KiCAD Library:C0603"
 			(at 251.46 160.3248 0)
 			(effects
 				(font
@@ -13147,7 +13147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Borna KiCAD Library:C0603"
 			(at 185.42 163.5252 0)
 			(effects
 				(font
