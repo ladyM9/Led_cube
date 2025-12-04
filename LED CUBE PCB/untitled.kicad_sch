@@ -7651,7 +7651,7 @@
 			)
 		)
 	)
-	(global_label "OUT"
+	(global_label "OSCOUT"
 		(shape input)
 		(at 220.98 162.56 0)
 		(fields_autoplaced yes)
@@ -7663,7 +7663,7 @@
 		)
 		(uuid "53b60901-bddc-44de-b946-801a03cc4f8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.5938 162.56 0)
+			(at 231.4038 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13013,7 +13013,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_Round_D3.0mm_Vertical"
+		(property "Footprint" "Marina_Library:ECS-080-18-23G-JGN-TR"
 			(at 201.93 154.94 0)
 			(effects
 				(font
